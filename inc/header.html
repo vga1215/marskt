@@ -24,28 +24,22 @@
 <link rel="stylesheet" href="style.css">
  
 <link rel="stylesheet" href="assets/css/responsive.css">
-  <style> 
+ <style> 
 .logoimg{ float:left;width:19%} 
 .collapse navbar-collapse{ float:right;width:79%}
-.nav navbar-nav{text-align: right;}
+.navbar-nav{ float:right}
 </style>
 </head>
-
 <header class="header-area">
 <nav class="navbar navbar-default navbar-fixed-top">
-
 <div class="container">
-
-<div class="row hidden-xs">
 <!--
+<div class="row hidden-xs">
 <div class="logo text-center">
-<a href="#"><h3>Marskt</h3></a>
+<a href="index.html"><img src="assets/images/marskt.png" alt="Marskt"></a>
+</div>
 </div>
 -->
-</div>
-<div class="logo mobile-logo hidden-lg hidden-md">
-<a class="navbar-brand" href="index.html"><h3>Marskt</h3></a>
-</div>
 <div class="row">
 <div class="col-xs-12">
 <div class="navbar-header">
@@ -56,34 +50,35 @@
 <span class="icon-bar"></span>
 </button>
  
-
+<div class="logo mobile-logo hidden-lg hidden-md">
+<a class="navbar-brand" href="index.html">
+<h3>
+<a href="index.html"><img src="assets/images/marskt.png" alt="Marskt">
+</h3>
+</a>
 </div>
-
-
- <!-- Features,Team,Pricing,Blog注释掉，暂时不启用 -->
-<div class="logoimg">
-<img src="assets/images/marskt.png" alt="Marskt">
 </div>
  
+ <!--
+Features,Team,Pricing,Blog注释掉，暂时不启用 
+-->
+<div class="row hidden-xs">
+<div class="logoimg">
+<a href="index.html"><img src="assets/images/marskt.png" alt="Marskt"></a>
+</div>
+</div>
 <div class="collapse navbar-collapse" id="mobile-toggle">
 <ul class="nav navbar-nav">
 <li class="dropdown active">
-<!--
-<a href="#home" data-toggle="dropdown" class="smooth-scroll">Home<b class="caret"></b></a>
--->
-
-<!--
- <ul class="dropdown-menu">
+<a href="#home" data-toggle="dropdown" class="smooth-scroll">Home <b class="caret"></b></a>
+<ul class="dropdown-menu">
 <li><a href="index.html">Home Default</a></li>
 <li><a href="#">Home Animation</a></li>
 <li><a href="#">Home Parallax</a></li>
 <li><a href="#">Home Video</a></li>
 </ul>
--->
-
 </li>
 <!-- <li><a class="smooth-scroll" href="#features">Features</a></li> -->
-<li><a class="smooth-scroll" href="#home">Home</a></li>
 <li><a class="smooth-scroll" href="#product">Product</a></li>
 <li><a class="smooth-scroll" href="#about">About</a></li>
 <li><a class="smooth-scroll" href="#services">Services</a></li>
