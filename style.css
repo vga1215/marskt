@@ -100,6 +100,9 @@ Slider
 .slide-bg-4{
   background-image: url("assets/images/slide4.jpg");
 }
+.pe-7s-fax{
+  background-image: url("assets/images/fax.jpg");
+}
 
 .tabel {
   display: table;
