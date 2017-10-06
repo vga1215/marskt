@@ -73,10 +73,12 @@ Slider
 ==================
 */
 .slider-area {
-  height: 82vh;
-/*  padding-top: 140px;
-*/
-  padding-top: 79px;
+/*  height: 82vh;
+*/ 
+  height: 100vh;
+  padding-top: 140px;
+
+/*  padding-top: 79px;  */
 }
 
 .single-slide {
@@ -87,7 +89,7 @@ Slider
   height: 100vh;
 }
 .slide-bg-1{
-  background-image: url("assets/images/slide1.jpg");
+  background-image: url("assets/images/M3-1.jpg");
 }
 .slide-bg-2{
   background-image: url("assets/images/slide2.jpg");
