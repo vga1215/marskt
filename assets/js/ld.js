@@ -1,18 +1,12 @@
-/* Demo Scripts for Making Twitter Bootstrap 3 Tab Play Nicely With The Masonry Library
-* on SitePoint by Maria Antonietta Perna
-*/
-
-//Initialize Masonry inside Bootstrap 3 Tab component 
-
 (function( $ ) {
 
-	var $container = $('.masonry-container');
-	$container.imagesLoaded( function () {
-		$container.masonry({
-			columnWidth: '.item',
-			itemSelector: '.item'
-		});
-	});
+var $grid = $('.grid').imagesLoaded( function() {
+  $grid.masonry({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    columnWidth: '.grid-sizer'
+  }); 
+});
 	
 	//Reinitialize masonry inside each panel after the relative tab link is clicked - 
 	$('a[data-toggle=tab]').each(function () {
@@ -20,12 +14,13 @@
 
 		$this.on('shown.bs.tab', function () {
 		
-			$container.imagesLoaded( function () {
-				$container.masonry({
-					columnWidth: '.item',
-					itemSelector: '.item'
-				});
-			});
+	var $grid = $('.grid').imagesLoaded( function() {
+  $grid.masonry({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    columnWidth: '.grid-sizer'
+  }); 
+});
 
 		}); //end shown
 	});  //end each
