@@ -13,11 +13,11 @@
 }
 
 .nav.navbar-nav li a {
-  color: #b7b7b7;
+  color: #fff;
   font-size: 13px;
   font-weight: 700;
-  margin: 8px 13px;
-  padding: 10px 15px;
+  margin: 12px 13px;
+  padding: 16px 30px;
   text-transform: uppercase;
 }
 
@@ -896,4 +896,9 @@ Preloader
 .element-item > * {
   margin: 0;
   padding: 0;
+}
+
+.header-inner {
+    padding-top:20px;
+    padding-bottom:5px;
 }
